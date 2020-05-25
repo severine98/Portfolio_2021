@@ -160,7 +160,7 @@ h2 {
     grid-area: picture;
     position: relative;
     display: block;
-    border: yellow 4px solid;
+    /* border: yellow 4px solid; */
     border-top: unset;
     border-left: unset;
 }
@@ -238,7 +238,7 @@ span {
 
 .tech-skill {
     background-color: wheat;
-    height: 413px; 
+    height: 550px; 
     padding: 10px; 
     position: relative;
     /* margin-bottom: -40px; */
@@ -272,7 +272,7 @@ of project as background. Tile of project displayed underneath each project. Whe
 it will describe in brief the project and tools used and cickable icons which take you to the repo on github. Would like to attempt a carrouselle in later stages  */
 
 #projects{
-    margin-top: 180px;
+    margin-top: 280px;
 }
 
 .article-projects {
