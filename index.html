@@ -4,30 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Severine Legon Portfolio</title>
-    
+    <title>Severine Legon Portfolio</title>  
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="icon" href="./faveicon.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="./script.js"></script>
 </head>
 
 <body>
 
-  
     <!-- Navbar -->
 
-    <nav id="nav"> 
+    <nav> 
         <ul>
             <li><a href="#about">About me</a></li>
             <li><a href="#projects">Projects</a></li>
         </ul>
     </nav>
-
 
     <!-- Landing page  -->
 
@@ -36,17 +32,16 @@
         <button class="btn btn-secondary" onclick="window.location.href='#projects'">View my work <i
                 class="fa fa-arrow-right" aria-hidden="true"></i> </button>
     </section>
+
     <!-- About section -->
 
     <section id="about">
-
         <h2>About me</h2>
-
-        <div class="div-section-content"  >
-            <article class="article-about grid">
+        <div class="section-content" >
+            <article class="about-me-blocks grid"> 
                 <div id="description">
-                    <h3>Who am I?</h3>
-                    <div class="grid-elements" >
+                    <div>
+                        <h3>Who am I?</h3>
                         <p>
                             I am a French bilingual living in London with a degree in Psychology obtained from the
                             University of
@@ -59,44 +54,30 @@
                         </p>
                     </div>
                 </div>
-
-              <div id="picture">
-                <!-- <h4>Insert piccy</h4> -->
-                    <!-- <img src="./profile-picture.jpg" alt="profile-picture" class="profile-picture"> -->
-
-                
-
+                <div id="pic-container">
+                    <div id="circle-pic"></div>
                 </div> 
-
                 <div>
-                    <h4 class="links-h4">Get in touch </h4>
-                    <div class="links" >
-                        <ul>
+                <div id="links" >
+                    <h4>Get in touch </h4>
+                    <ul>
                         <li> <a href=https://github.com/severine98 target="blank" aria-hidden="true" class="fa fa-github-square">   Github </a></li>
-                        <li> <a href=https://www.linkedin.com/in/severine-legon-5b3580167/ target="blank" aria-hidden="true" class="fa fa-linkedin-square">  LinkedIn </a></li>
+                        <li> <a href=https://www.linkedin.com/in/severine-legon-5b3580167/ target="blank" aria-hidden="true" class="fa fa-linkedin-square">LinkedIn </a></li>
                         <li> <a href=# target="blank" aria-hidden="true" class="fa fa-envelope">   Email </a></li>      
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
                 </div>
             </article>
-
-            <article class="article-about">
-                
-                <div class="skills-section">
+            <article class="about-me-blocks">
+                <div class="yellow-border">
                     <h3>My skills</h3>
-                    <article class="tech-skill">
+                    <article>
                         <h4>Tech skills</h4>   
-                    <div>
-                    	<span class="button">Git</span> <span class="button">HTML 5</span> <span class="button">CSS</span> <span class="button">javascript</span> <span class="button">React</span> <span class="button">Sass</span> <span class="button">Npm</span>
-                    </div>
-                         
-
-                            
-                       
+                        <div><span class="button">Git</span> <span class="button">HTML 5</span> <span class="button">CSS</span> <span class="button">javascript</span> <span class="button">React</span> <span class="button">Sass</span> <span class="button">Npm</span>
+                        </div>   
                     </article>
-                    <article class="soft-skill" >
+                    <article>
                         <h4>Soft skills</h4>
-                        
                             <p>Problem solving: </p>
                             <p>Team work: Collaborations, pair-programming.</p>
                             <p>Communication: tutoring, constructive feedback, customer support.</p>
@@ -104,25 +85,16 @@
                             <p>Adaptable: open-minded, organized, remote working.</p>
                             <p>Interpersonal skill: public speaking, networking, mentoring.</p>
                         
-                    </article>
-                </div>
+                    </article></div>
             </article>
         </div>
     </section>
 
-
-
     <!-- Project section -->
 
-
     <section id="projects">
-
         <h2>Projects</h2>
-
-        <div class="div-section-content">
-
-
-
+        <div class="section-content">
             <article class="article-projects">
                 <img src="./computer.jpg" alt="project-1" style="width:100%">
                 <h3>Project 1</h3>
@@ -131,7 +103,6 @@
                     <p>Tools used: git, html, scc, js</p>
                 </section>
             </article>
-
             <article class="article-projects">
                 <img src="./computer.jpg" alt="project-2" style="width:100%">
                 <h3>Project 2</h3>
@@ -194,18 +165,8 @@
                     <p>Tools used: git, html, scc, js</p>
                 </section>
             </article>
-
-
-
-
-
         </div>
-
     </section>
-
-
-
-
 
 </body>
 
