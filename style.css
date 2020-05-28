@@ -16,10 +16,11 @@
   top: 0;
   background-color: wheat;
   border-bottom: black 3px solid;
-  width: 100vw;
+  width: 100%;
+  height: 100px;
   font-size: 1.5em;
-  -webkit-transition: top 0.3s;
-  transition: top 0.3s;
+  -webkit-transition: top 0.5s;
+  transition: top 0.5s;
   z-index: 1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,6 +37,12 @@
 * body nav ul {
   list-style: none;
   font-weight: bold;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 * body nav ul li {
@@ -142,8 +149,8 @@
 
 * body section#about .section-content .about-me-blocks {
   border: black 4px solid;
-  -webkit-box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
-          box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
+  -webkit-box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
+          box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
   background-color: wheat;
   width: 700px;
   margin: 10px;
@@ -164,6 +171,7 @@
   -ms-grid-column: 1;
   grid-area: description;
   text-align: center;
+  border-bottom: black 2px solid;
 }
 
 * body section#about .section-content .about-me-blocks #description h3 {
@@ -174,14 +182,14 @@
   text-shadow: 1px 2px rgba(79, 99, 103, 0.8);
 }
 
-@media screen and (min-width: 480px) {
-  * body section#about .section-content .about-me-blocks #description p {
-    padding-top: 70px;
-  }
-}
-
 * body section#about .section-content .about-me-blocks #description a:hover {
   text-decoration: none;
+}
+
+@media screen and (min-width: 480px) {
+  * body section#about .section-content .about-me-blocks #description p {
+    margin-top: 5%;
+  }
 }
 
 * body section#about .section-content .about-me-blocks #description span {
@@ -209,9 +217,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-bottom: 20px;
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
+  /* margin-bottom: 20px;*/
+  /* @media screen and (min-width: 480px) {                        
+                                            margin-bottom: unset;       */
 }
 
 * body section#about div div#links {
@@ -230,6 +240,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  border-right: 2px solid;
 }
 
 * body section#about div div#links h4 {
@@ -265,8 +276,8 @@
 
 * article.about-me-blocks {
   border: black 4px solid;
-  -webkit-box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
-          box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
+  -webkit-box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
+          box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
   background-color: wheat;
   width: 700px;
   margin: 10px;
@@ -301,8 +312,8 @@
   margin: 5px;
   margin-bottom: 8px;
   border: black 2px solid;
-  -webkit-box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
-          box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
+  -webkit-box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
+          box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
 }
 
 * article.about-me-blocks div.yellow-border article h4 {
@@ -341,8 +352,8 @@
   border: black 2px solid;
   width: 300px;
   height: 300px;
-  -webkit-box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
-          box-shadow: 5px 10px rgba(79, 99, 103, 0.8);
+  -webkit-box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
+          box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
   margin: 10px;
 }
 
