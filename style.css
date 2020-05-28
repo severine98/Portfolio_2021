@@ -219,9 +219,13 @@
   background-position: center;
   width: 180px;
   height: 180px;
-  /* margin-bottom: 20px;*/
-  /* @media screen and (min-width: 480px) {                        
-                                            margin-bottom: unset;       */
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  * body section#about div#pic-container div#circle-pic {
+    margin-bottom: unset;
+  }
 }
 
 * body section#about div div#links {
@@ -240,7 +244,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-right: 2px solid;
+}
+
+@media screen and (min-width: 480px) {
+  * body section#about div div#links {
+    border-right: 2px solid black;
+  }
 }
 
 * body section#about div div#links h4 {
@@ -320,6 +329,7 @@
   font-weight: bold;
   margin: 15px 0;
   text-shadow: 1px 2px rgba(79, 99, 103, 0.8);
+  margin-top: 30px;
 }
 
 * section#projects h2 {
