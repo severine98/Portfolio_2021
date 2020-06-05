@@ -186,6 +186,10 @@
   text-decoration: none;
 }
 
+* body section#about .section-content .about-me-blocks #description p {
+  padding: 0 10px;
+}
+
 @media screen and (min-width: 480px) {
   * body section#about .section-content .about-me-blocks #description p {
     margin-top: 5%;
@@ -292,11 +296,7 @@
   margin: 10px;
 }
 
-* article.about-me-blocks div.yellow-border {
-  border: yellow 4px solid;
-}
-
-* article.about-me-blocks div.yellow-border h3 {
+* article.about-me-blocks h3 {
   background-color: #eef5db;
   padding: 10px;
   font-size: 2em;
@@ -304,12 +304,12 @@
   text-shadow: 1px 2px rgba(79, 99, 103, 0.8);
 }
 
-* article.about-me-blocks div.yellow-border article h4 {
+* article.about-me-blocks article h4 {
   font-weight: bold;
   margin: 15px 0;
 }
 
-* article.about-me-blocks div.yellow-border article div span.button {
+* article.about-me-blocks article div span.button {
   background-color: #4CAF50;
   border: none;
   color: white;
@@ -325,14 +325,14 @@
           box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
 }
 
-* article.about-me-blocks div.yellow-border article h4 {
+* article.about-me-blocks article h4 {
   font-weight: bold;
   margin: 15px 0;
   text-shadow: 1px 2px rgba(79, 99, 103, 0.8);
   margin-top: 30px;
 }
 
-* section#projects h2 {
+section#projects h2 {
   padding: 2% 0;
   color: #eef5db;
   text-shadow: 3px 5px black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -342,12 +342,12 @@
 }
 
 @media screen and (min-width: 480px) {
-  * section#projects h2 {
+  section#projects h2 {
     margin-bottom: 30px;
   }
 }
 
-* section#projects div.section-content {
+section#projects div.section-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -357,7 +357,7 @@
       flex-wrap: wrap;
 }
 
-* section#projects div.section-content article.article-projects {
+section#projects div.section-content article.article-projects {
   position: relative;
   border: black 2px solid;
   width: 300px;
@@ -367,13 +367,13 @@
   margin: 10px;
 }
 
-* section#projects div.section-content article.article-projects img {
+section#projects div.section-content article.article-projects img {
   width: 100%;
   height: 100%;
   position: relative;
 }
 
-* section#projects div.section-content article.article-projects h3 {
+section#projects div.section-content article.article-projects h3 {
   background-color: #eef5db;
   padding: 10px;
   font-size: 2em;
@@ -384,7 +384,7 @@
   text-shadow: 1px 2px rgba(79, 99, 103, 0.8);
 }
 
-* section#projects div.section-content article.article-projects section {
+section#projects div.section-content article.article-projects section {
   position: relative;
   text-align: center;
   padding: 30px;
@@ -397,7 +397,7 @@
           flex-direction: column;
 }
 
-* section#projects div.section-content article.article-projects section.project-description {
+section#projects div.section-content article.article-projects section.project-description {
   position: absolute;
   top: 0;
   border: yellow 4px solid;
@@ -422,13 +422,13 @@
   background-color: wheat;
 }
 
-* section#projects div.section-content article.article-projects section.project-description:hover {
+section#projects div.section-content article.article-projects section.project-description:hover {
   opacity: 1;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
-* section#projects div.section-content article.article-projects section.project-description:hover h3 {
+section#projects div.section-content article.article-projects section.project-description:hover h3 {
   background-color: #eef5db;
   padding: 10px;
   font-size: 2em;
