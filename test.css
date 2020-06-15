@@ -420,13 +420,6 @@ section#projects div.section-content article.article-projects img {
   position: absolute;
   bottom: 0;
   left: 0;
-  display: none;
-}
-
-@media screen and (min-width: 1024px) {
-  section#projects div.section-content article.article-projects img {
-    display: unset;
-  }
 }
 
 section#projects div.section-content article.article-projects h3 {
@@ -475,7 +468,7 @@ section#projects div.section-content article.article-projects section.project-de
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  opacity: 1;
+  opacity: 0;
   -webkit-transition: 0.5s ease;
   transition: 0.5s ease;
   background-color: #e9f1f7;
@@ -495,12 +488,6 @@ section#projects div.section-content article.article-projects section.project-de
 section#projects div.section-content article.article-projects section.project-description i:hover {
   color: red;
   text-decoration: none;
-}
-
-@media screen and (min-width: 1024px) {
-  section#projects div.section-content article.article-projects section.project-description {
-    opacity: 0;
-  }
 }
 
 section#projects div.section-content article.article-projects section.project-description:hover {
