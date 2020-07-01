@@ -400,18 +400,11 @@ section#projects div.section-content {
 section#projects div.section-content article.article-projects {
   position: relative;
   border: black 2px solid;
-  width: 450px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   -webkit-box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
           box-shadow: 10px 7px rgba(79, 99, 103, 0.8);
   margin: 10px;
-}
-
-@media screen and (min-width: 480px) {
-  section#projects div.section-content article.article-projects {
-    width: 300px;
-    height: 300px;
-  }
 }
 
 section#projects div.section-content article.article-projects img {
@@ -474,22 +467,6 @@ section#projects div.section-content article.article-projects section.project-de
   background-color: #e9f1f7;
 }
 
-section#projects div.section-content article.article-projects section.project-description a {
-  color: black;
-  text-decoration: none;
-}
-
-section#projects div.section-content article.article-projects section.project-description i {
-  font-size: 1.5em;
-  padding-right: 15px;
-  font-weight: bold;
-}
-
-section#projects div.section-content article.article-projects section.project-description i:hover {
-  color: red;
-  text-decoration: none;
-}
-
 section#projects div.section-content article.article-projects section.project-description:hover {
   opacity: 1;
   -webkit-transition: 0.5s ease;
@@ -505,6 +482,22 @@ section#projects div.section-content article.article-projects section.project-de
 
 section#projects div.section-content article.article-projects section.project-description:hover p {
   font-weight: bold;
+}
+
+section#projects div.section-content article.article-projects section.project-description:hover a {
+  color: black;
+  text-decoration: none;
+}
+
+section#projects div.section-content article.article-projects section.project-description:hover i {
+  font-size: 1.5em;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+section#projects div.section-content article.article-projects section.project-description:hover i:hover {
+  color: red;
+  text-decoration: none;
 }
 
 footer {
